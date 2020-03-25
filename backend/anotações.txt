@@ -1,0 +1,17 @@
+/*
+METODO HTTP:
+GET: BUSCAR INFOS DO BACK-END
+POST: CRIAR INFORMAÇÃO NO BACK-END
+PUT: ALTERAR UMA INFORMAÇÃO NO BACK-END
+DELETE: DELETAR INFORMAÇÃO NO BACK-END
+TIPOS DE PARAMETROS
+
+query params: parametros enviados pelo get na url serve pra fitltrar,paginar dados.
+Route params: paramametros utilizados para idenfitificar recursos(paginas) exemplo o /users
+request body: corpo da requisição para criar ou alterar recursos(criar um usuario por exemplo)
+configuração do nodemon > instalar nodemon (npm install nodemon -D  versão dev) configurar no json para startar
+ substituir o "test" por "start": "nodemon index.js"
+
+ driver: select * from
+ query builder(js): table('users).select("*").where(" ")
+*/
