@@ -14,4 +14,6 @@ configuração do nodemon > instalar nodemon (npm install nodemon -D  versão de
 
  driver: select * from
  query builder(js): table('users).select("*").where(" ")
+
+ Biblioteca celebrate pode ser interessante para validação de dados.
 */
